@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dayere/static/css/main.833b84b3.chunk.css",
+    "main.js": "/dayere/static/js/main.366dfa5e.chunk.js",
+    "main.js.map": "/dayere/static/js/main.366dfa5e.chunk.js.map",
+    "runtime-main.js": "/dayere/static/js/runtime-main.99b434ca.js",
+    "runtime-main.js.map": "/dayere/static/js/runtime-main.99b434ca.js.map",
+    "static/js/2.713ead58.chunk.js": "/dayere/static/js/2.713ead58.chunk.js",
+    "static/js/2.713ead58.chunk.js.map": "/dayere/static/js/2.713ead58.chunk.js.map",
+    "index.html": "/dayere/index.html",
+    "precache-manifest.31b0b098634fac1c100b2dea358f7fea.js": "/dayere/precache-manifest.31b0b098634fac1c100b2dea358f7fea.js",
+    "service-worker.js": "/dayere/service-worker.js",
+    "static/css/main.833b84b3.chunk.css.map": "/dayere/static/css/main.833b84b3.chunk.css.map",
+    "static/js/2.713ead58.chunk.js.LICENSE.txt": "/dayere/static/js/2.713ead58.chunk.js.LICENSE.txt",
+    "static/media/cover2.jpg": "/dayere/static/media/cover2.ad4f4a4a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99b434ca.js",
+    "static/js/2.713ead58.chunk.js",
+    "static/css/main.833b84b3.chunk.css",
+    "static/js/main.366dfa5e.chunk.js"
+  ]
+}
