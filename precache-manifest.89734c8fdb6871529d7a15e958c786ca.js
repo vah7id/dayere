@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29f31ed03b5d295c1168009c90ca71d2",
+    "revision": "4b96308a8b0ef13e702548ac60ead70d",
     "url": "/dayere/index.html"
   },
   {
-    "revision": "ecdccd2f7787786ff8c2",
-    "url": "/dayere/static/css/main.833b84b3.chunk.css"
+    "revision": "aa0e34704bfd0a29f1f3",
+    "url": "/dayere/static/css/main.4c1c5058.chunk.css"
   },
   {
     "revision": "47e7a6f19270b4c64226",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dayere/static/js/2.713ead58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecdccd2f7787786ff8c2",
+    "revision": "aa0e34704bfd0a29f1f3",
     "url": "/dayere/static/js/main.366dfa5e.chunk.js"
   },
   {
