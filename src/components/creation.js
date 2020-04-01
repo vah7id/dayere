@@ -5,7 +5,7 @@ class Creation extends React.Component {
   	document.body.style.background = 'black';
   }
   render() {
-  	  const circle = window.location.pathname.split('/').pop();
+  	  const circle = 'circle_name';
 	  return (
 	    <div className="creation">
 	    	<div className="container">

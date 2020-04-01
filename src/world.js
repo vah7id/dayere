@@ -12,7 +12,7 @@ function World() {
           <Route exact path="/">
             <Hello />
           </Route>
-          <Route exact path="/hello-world/:circle">
+          <Route exact path="/hello-world">
             <Creation />
           </Route>
           <Route path="/:id">

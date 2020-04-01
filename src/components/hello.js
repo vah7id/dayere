@@ -12,7 +12,7 @@ class Hello extends React.Component {
   create() {
   	const name = this.circle.current.value;
   	if(name.length > 1) {
-  		window.location.assign('/hello-world/'+name);
+  		window.location.assign('/hello-world');
   	}
   }
   render() {

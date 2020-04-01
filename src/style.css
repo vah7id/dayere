@@ -38,7 +38,7 @@ body {
 
 .hello input {
 	padding: 10px 10px;
-	width: 400px;
+	width: 325px;
 	font-size: 1em;
 	font-weight: bold;
 	border: 2px solid white;
@@ -377,11 +377,12 @@ body {
 	position: fixed;
 	right: 5%;
 	top: 40px;
+	padding-left: 25px;
 	cursor: pointer;
-	width: 200px;
-	text-align: right;
+	width: 120px;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	text-align: right;
 	text-transform: uppercase;
   	font-family: 'Courier New';
   	color: black;
@@ -391,8 +392,11 @@ body {
 }
 
 .individual svg {
-	margin: 0 0 0 5px;
-	float: right;
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 999;
+	float: left;
 }
 
 /* ========================= MESSAGES =========================== */
@@ -522,6 +526,7 @@ body {
 	position: fixed;
 	left: auto;
 	right: auto;
+	height: 100%;
 	z-index: 3;
 	width: 100%;
 	overflow-y: auto;
@@ -542,7 +547,7 @@ body {
 	width: 100%;
 	position: relative;
 	z-index: 100;
-	margin-top: 100px;
+	margin-top: 50px;
 	display: block;
 	text-shadow: 0 0 2px rgba(#1ff042,0.75);
 	font-size: 3em;
