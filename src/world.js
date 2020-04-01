@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Hello from './components/hello';
-import Dayere from './components/dayere';
+import Circle from './components/circle';
+import Creation from './components/creation';
 
 function World() {
   return (
@@ -11,8 +12,11 @@ function World() {
           <Route exact path="/">
             <Hello />
           </Route>
+          <Route exact path="/hello-world/:circle">
+            <Creation />
+          </Route>
           <Route path="/:id">
-            <Dayere />
+            <Circle />
           </Route>
         </Switch>
       </Router>

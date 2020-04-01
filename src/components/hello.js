@@ -12,7 +12,7 @@ class Hello extends React.Component {
 			    <div class="col-xs-12 col-sm-6 col-md-6">
 			        <h1>DAYERE</h1>
 			        <p>Welcome to the milky circle. Create new circle and communicate.</p>
-			        <input name="circle" placeholder="What's the name of your circle?" type="text" />
+			        <input name="circle" placeholder="What's the name of your circle?" maxlength="16" type="text" />
 			        <button>START</button>
 			    </div>
 			    <div class="col-xs-12 col-sm-6 col-md-6">

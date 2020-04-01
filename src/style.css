@@ -336,7 +336,7 @@ body {
 
 /* ========================= DAYRRE =========================== */
 
-.dayere h1 {
+.circle h1 {
 	z-index: 2;
 	text-transform: uppercase;
   	font-family: 'Press Start 2P', cursive;
@@ -375,8 +375,9 @@ body {
 .individual {
 	position: fixed;
 	right: 5%;
-	top: 35px;
-	width: 150px;
+	top: 40px;
+	cursor: pointer;
+	width: 200px;
 	text-align: right;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -385,7 +386,12 @@ body {
   	color: black;
   	font-size: 1.2em;
   	text-decoration: underline;
-  	z-index: 2;
+  	z-index: 999;
+}
+
+.individual svg {
+	margin: 0 0 0 5px;
+	float: right;
 }
 
 /* ========================= MESSAGES =========================== */
@@ -398,7 +404,7 @@ body {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-  	padding: 60px 0;
+  	padding: 0px 0;
   	overflow: scroll;
 }
 
@@ -410,7 +416,7 @@ body {
 }
 
 .messages .message:last-child {
-	margin-bottom: 75px;
+	margin-bottom: 25px;
 }
 
 .messages .message:first-child {
@@ -479,7 +485,6 @@ body {
 }
 
 @keyframes moveTheWave {
-
   0% {
     stroke-dashoffset: 0;
     transform: translate3d(0, 0, 0);
@@ -489,5 +494,86 @@ body {
     stroke-dashoffset: -133;
     transform: translate3d(-90px, 0, 0);
   }
+}
 
+/* ========================= CREATION =========================== */
+
+.creation {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.creation .bg {
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	position: fixed;
+	right: 0;
+	background-size: cover;
+	background: url('./resources/hello.gif') no-repeat center top;
+	background-size: 200% 400%;
+	z-index: 2;
+}
+
+.creation .container {
+	position: fixed;
+	left: auto;
+	right: auto;
+	z-index: 3;
+	width: 100%;
+	overflow-y: auto;
+}
+
+@keyframes blink {
+  0% {visibility: hidden;}
+  50% {visibility: hidden;}
+  90% {visibility: visible;}
+  100% {opacity: visible;}
+}
+
+.creation h3 {
+	animation: blink 1s infinite;
+  	font-family: 'Press Start 2P', cursive;
+	color: #1ff042;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	z-index: 100;
+	margin-top: 100px;
+	display: block;
+	text-shadow: 0 0 2px rgba(#1ff042,0.75);
+	font-size: 3em;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.creation .container .instruction {
+	max-width: 768px;
+	padding: 25px 50px;
+	display: block;
+	color: #1ff042;
+	margin: 0 auto;
+	text-shadow: 0 0 2px rgba(#1ff042,0.75);
+	margin-top: 25px;
+}
+
+.creation h1 {
+	font-weight: 1.5em;
+	line-height: 42px;
+  	font-family: 'Press Start 2P', cursive;
+	color: white;	
+}
+
+.creation h2 {
+	font-size: 2.5em;
+	margin-top: 50px;
+	padding: 30px 10px;
+	width: 200px;
+	border: 1px solid #fff;
+	color: white;
+	margin: 50px auto 0 auto;
+	text-align: center;
+  	font-family: 'Press Start 2P', cursive;
 }

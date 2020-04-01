@@ -1,9 +1,11 @@
 import React from 'react';
+import { FiLock } from "react-icons/fi";
 
-function individual() {
+function individual(props) {
   return (
     <div className="individual">
-    	INDIVIDUAL
+    	{props.name}
+    	<FiLock />
     </div>
   );
 }

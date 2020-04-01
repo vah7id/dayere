@@ -24,7 +24,7 @@ class Message extends React.Component {
               {
                   this.state.status === 'speak' &&
                   <div className="listen">
-                    <svg width="80" height="60" viewBox="5 0 80 60">
+                    <svg width="50" height="60" viewBox="5 0 80 60">
                       <path class="wave" fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
                     </svg>
                   </div>
@@ -36,10 +36,10 @@ class Message extends React.Component {
                   </div>
               }
             </div>
-            <div className="orbits">
+            {/*<div className="orbits">
                 {this.props.orbits.map((orbit, orbIndex) => 
                     <div style={{'zIndex': (this.props.index+1)*(orbIndex+1)}} className={`orbit-${orbIndex+1}`}></div>)}
-            </div>
+            </div>*/}
             <span>{this.props.individual}</span>
         </div>
 	  );
