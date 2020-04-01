@@ -18,6 +18,7 @@ body {
 	max-width: 1024px;
 	display: block;
 	margin: 0 auto;
+	color: #1ff042;
 	padding: 0 15px;
 }
 
@@ -28,9 +29,9 @@ body {
 }
 
 .hello h1 {
-	color: yellow;
+	color: #fff;
   	font-family: 'Press Start 2P', cursive;
-	margin: 70px 0 100px 0;
+	margin: 75px 0 100px 0;
 	font-size: 3em;
 	z-index: 999;
 }
@@ -58,8 +59,8 @@ body {
 }
 
 .hello button:active {
-	border-color: yellow;
-	color: yellow;
+	border-color: #1ff042;
+	color: #1ff042;
 }
 
 @keyframes floatingShadow {
@@ -420,7 +421,7 @@ body {
 }
 
 .messages .message:first-child {
-	margin-top: 25px;
+	margin-top: 50px;
 }
 
 .messages .message .sphere {
